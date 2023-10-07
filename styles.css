@@ -1,0 +1,39 @@
+body{
+background-color: orange;
+}
+.title{
+  text-align: center;
+
+}
+
+#taco{
+  animation:2s alternate infinite linear spin;
+ position: absolute;
+}
+@keyframes spin {
+  0%{
+transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75%{
+    transform: rotate(270);
+  }
+  100%{
+    transform: rotate(360);
+  }
+}
+.e{
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: seagreen;
+  font-size: 3vmin;
+  color: greenyellow;
+}
